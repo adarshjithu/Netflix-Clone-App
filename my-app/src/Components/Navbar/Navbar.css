@@ -1,0 +1,49 @@
+.navbar{
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+
+    
+}
+.logo{
+    position: fixed;
+    left: 20px;
+    width: 80px;
+}
+.avatar{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+}
+.options{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    list-style-type: none;
+   
+    padding: 25px;
+    text-decoration: none;
+    margin-bottom: 50px;
+  
+    
+}
+.options li{
+    padding: 0 1rem;
+    color: white;
+    list-style-type: none;
+
+   
+}
+.options li a {
+    cursor: pointer;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    
+}

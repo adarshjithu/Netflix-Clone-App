@@ -1,0 +1,11 @@
+import { apiKey } from "./Components/Constants/Constants"
+export const originals=`discover/tv?api_key=${apiKey}&with_networks=213`
+export const action=`https://api.themoviedb.org/3/discover/movie?api_key=cc977bde8b7b4ab1efddc5880e976cea&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=28&with_watch_monetization_types=flatrate`
+export const Adventure=`https://api.themoviedb.org/3/discover/movie?api_key=cc977bde8b7b4ab1efddc5880e976cea&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=12&with_watch_monetization_types=flatrate`
+export const Animation=`https://api.themoviedb.org/3/discover/movie?api_key=cc977bde8b7b4ab1efddc5880e976cea&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=16&with_watch_monetization_types=flatrate`
+export const Comedy=`https://api.themoviedb.org/3/discover/movie?api_key=cc977bde8b7b4ab1efddc5880e976cea&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=35&with_watch_monetization_types=flatrate`
+export const Crime=`https://api.themoviedb.org/3/discover/movie?api_key=cc977bde8b7b4ab1efddc5880e976cea&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=80&with_watch_monetization_types=flatrate`
+export const Fantacy=`https://api.themoviedb.org/3/discover/movie?api_key=cc977bde8b7b4ab1efddc5880e976cea&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=14&with_watch_monetization_types=flatrate`
+export const Horror=`https://api.themoviedb.org/3/discover/movie?api_key=cc977bde8b7b4ab1efddc5880e976cea&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=27&with_watch_monetization_types=flatrate`
+export const Romance=`https://api.themoviedb.org/3/discover/movie?api_key=cc977bde8b7b4ab1efddc5880e976cea&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=10749&with_watch_monetization_types=flatrate`
+export const Thriller=`https://api.themoviedb.org/3/discover/movie?api_key=cc977bde8b7b4ab1efddc5880e976cea&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=1074953&with_watch_monetization_types=flatrate`
